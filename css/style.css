@@ -253,14 +253,26 @@ button.navbar-toggler {
         margin-top: -0px;
     }
 }
-@media (max-width: 615px){
-    .social-links{
-        display:none;
-    }
-    .break{
-        display:block;
-    }
 
+@media (max-width: 615px){
+    .social-links {
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .identity {
+        margin-top: 20px;
+        text-align:center;
+    }
+    .identity .details,
+    .identity a {
+        position:relative;
+        display: block;
+        text-decoration:none;
+        margin-top:5px;
+        margin-bottom:50px;
+    }
 }
 
 /*---//Media Queries*/
